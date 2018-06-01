@@ -3,7 +3,10 @@ title: "Tracking gentrification through tweets"
 author: "Mikael Brunila"
 date: "12/11/2017"
 output:
-  html_document: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    self_contained: yes
     keep_md: TRUE
 always_allow_html: yes
 ---
