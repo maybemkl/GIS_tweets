@@ -200,7 +200,7 @@ Here, the z-value indicates distance to the mean as measured in standard deviati
 
 The spatial error model, on the other hand, operates by including the weights matrix in the error term. The z-value, p-value and coefficients are similar to the lag model, but slightly smaller. The spatial lag model seems to be a better fit, which is further verified when we look at the residual mean square error below. 
 
-![Summary for the spatial lag regression model](images/spatialerror_coeffs.png)
+![Summary for the spatial lag regression model](images/spatialerror_coeffs.png)  
 Finally, the residuals maps show the difference between the observed and the fitted data. The smaller the residuals, the better the fit. The residual mean squared error is one measurement of the quality of the fit. For OLS, it is 0.3892337, for the spatial lag mdoel 0.3843643 and for the spatial error model 0.3843643. Following this criteria, the best fit is provided by the spatial lag model, although the differences are neglible. In the spatial lag (and the two other) models, the tweets have a statistically significant positive relationship to the rate of chagne in rent between 2010 and 2015. 
 
 The size of the coefficient is small, but a larger sample of tweets might increase this value. Hence, we can reject the null hypothesis of no relationship existing: there is indication of a weak relationship, that would be worth exploring in further research.
